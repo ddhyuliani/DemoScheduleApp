@@ -19,7 +19,7 @@ struct DateCardView: View {
                 .font(.regularFootnote)
         }
         .frame(width: 78, height: 87)
-        .foregroundStyle(isSelected ? Color.primary : Color.neutralPrimaryGrey)
+        .foregroundStyle(isSelected ? Color.greySecondaryBrand : Color.neutralPrimaryGrey)
         .background(isSelected ? Color.yellowPrimaryBrand : Color.greySecondaryBrand)
         .clipShape(RoundedRectangle(cornerRadius: Radius.card))
         

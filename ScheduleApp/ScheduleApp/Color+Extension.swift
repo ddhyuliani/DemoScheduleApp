@@ -8,10 +8,11 @@
 import SwiftUI
 
 extension Color {
-  static let purpleAccentBrand = Color("#9678EB")
-  static let yellowPrimaryBrand = Color("#FFCD00")
-  static let greySecondaryBrand = Color(red: 38/255, green: 38/255, blue: 38/255)
-  static let whitePrimarySurface = Color(red: 248/255, green: 248/255, blue: 248/255)
+    static let neutralPrimaryGrey = Color("#8E8E8E")
+    static let purpleAccentBrand = Color("#9678EB")
+    static let yellowPrimaryBrand = Color("#FFCD00")
+    static let greySecondaryBrand = Color(red: 38/255, green: 38/255, blue: 38/255)
+    static let whitePrimarySurface = Color(red: 248/255, green: 248/255, blue: 248/255)
 }
 
 

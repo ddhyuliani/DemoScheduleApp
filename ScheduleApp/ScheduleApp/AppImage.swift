@@ -7,7 +7,9 @@
 
 import Foundation
 
-enum AppImage {
-  static let avatar = "avatar"
-  static let emptyState = "empty_state"
+enum AppImage: String {
+    case gaTech = "GATech"
+    case gaDesign = "GADesign"
+    case dini = "Dini"
+    case rizal = "Rizal"
 }
