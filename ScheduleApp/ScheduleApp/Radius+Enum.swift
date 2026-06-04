@@ -8,7 +8,8 @@
 import Foundation
 
 enum Radius {
-    static let date: CGFloat = 24
-    static let card: CGFloat = 24
+  static let selectedCalendar: CGFloat = 24
+  static let unselectedCalendar: CGFloat = 24
+  static let card: CGFloat = 24
 }
 
